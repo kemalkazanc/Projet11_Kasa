@@ -16,9 +16,9 @@ jobs:
         with:
           submodules: false # Désactiver la mise à jour des sous-modules
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "20" # Utiliser Node.js 20
       - name: Install dependencies
         run: npm install
       - name: Run tests
