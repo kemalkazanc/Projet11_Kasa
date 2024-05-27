@@ -14,11 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: false # Désactiver la mise à jour des sous-modules
+          submodules: false
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20" # Utiliser Node.js 20
+    node-version: '21.5.0'
       - name: Install dependencies
         run: npm install
       - name: Run tests
