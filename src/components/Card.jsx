@@ -14,7 +14,6 @@ const Card = () => {
             <img className="card__img" src={appart.pictures[0]} alt="" />
             <div className="card__galerie"></div>
             <h2 className="card__title">{appart.title}</h2>
-            <h1>Test</h1>
           </NavLink>
         </article>
       ))}
